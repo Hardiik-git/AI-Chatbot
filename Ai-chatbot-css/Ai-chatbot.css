@@ -1817,8 +1817,3 @@ li.lst_chld_icn p {
     margin: 0px 0px 30px;
   }
 }
-
-html,
-body {
-  overflow-x: hidden !important;
-}
