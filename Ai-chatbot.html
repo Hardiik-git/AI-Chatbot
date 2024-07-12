@@ -1,768 +1,892 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="Images/favi-icon.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="Images/favi-icon.png" type="image/x-icon" />
     <title>AI Chatbot</title>
-    <link rel="stylesheet" href="Ai-chatbot-css/Ai-chatbot.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="shortcut icon"
-        href="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Testi-IMG-HuE1cJo-x34.jpg"
-        type="image/x-icon">
+    <link rel="stylesheet" href="Ai-chatbot-css/Ai-chatbot.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Testi-IMG-HuE1cJo-x34.jpg"
+      type="image/x-icon"
+    />
 
     <!-- Animations Links -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!-- Animation Links Ends -->
-</head>
+  </head>
 
-<body>
-
-
+  <body>
     <div class="container">
-
-        <nav class="nav_fl wow animate__fadeIn">
-            <div class="logo_nav">
-                <figure>
-                    <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/11/Robotech-New.png"
-                        alt="">
-                </figure>
-            </div>
-            <ul class="nav_items">
-                <li class="items_fl">
-                    <a href="#">Home</a>
-                </li>
-                <li class="items_fl">
-                    <a href="#">About Us</a>
-                </li>
-                <li class="items_fl">
-                    <a href="#">Pages</a>
-                </li>
-                <li class="items_fl">
-                    <a href="#">Blogs</a>
-                </li>
-                <li class="items_fl">
-                    <a href="#">Contacts</a>
-                </li>
-            </ul>
-            <div class="ryt_nav_fl">
-                <figure>
-                    <a href="#">
-                        <i class="fa-solid fa-phone"></i>
-                    </a>
-                </figure>
-                <p>+1 (555) 123-4567</p>
-                <figure>
-                    <a href="#">
-                        <i class="fa-solid fa-bars"></i>
-                    </a>
-                </figure>
-            </div>
-            <div class="res_pon_icon">
-                <button class="btn_stl_nav">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-            </div>
-        </nav>
-
-        <div class="main_headin_fl wow animate__slideInUp">
-            <div class="fl_main_sec">
-                <h1>Revolutionizing robotics with AI</h1>
-                <p>At the forefront of technological innovation, we are pioneering the fusion of artificial intelligence
-                    and robotics to redefine the future. Our relentless commitment to advancing the field has enabled us
-                    to create a powerful synergy between machines and intelligence.</p>
-                <div class="btn_fl">
-                    <button class="btn_styl_1">Explore</button>
-                    <button class="btn_styl_2">Learn More</button>
-                </div>
-            </div>
-            <div class="fl_main_sec">
-                <figure>
-                    <img src="https://www.robonien.com/static/img/gif/robot.gif" alt="">
-                </figure>
-            </div>
+      <nav class="nav_fl wow animate__fadeIn">
+        <div class="logo_nav">
+          <figure>
+            <img
+              src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/11/Robotech-New.png"
+              alt=""
+            />
+          </figure>
         </div>
-
-        <div class="head_ing wow animate__slideInUp">
-            <p>1250+ Trusted Big Companies</p>
+        <ul class="nav_items">
+          <li class="items_fl">
+            <a href="#">Home</a>
+          </li>
+          <li class="items_fl">
+            <a href="#">About Us</a>
+          </li>
+          <li class="items_fl">
+            <a href="#">Pages</a>
+          </li>
+          <li class="items_fl">
+            <a href="#">Blogs</a>
+          </li>
+          <li class="items_fl">
+            <a href="#">Contacts</a>
+          </li>
+        </ul>
+        <div class="ryt_nav_fl">
+          <figure>
+            <a href="#">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+          </figure>
+          <p>+1 (555) 123-4567</p>
+          <figure>
+            <a href="#">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+          </figure>
         </div>
-
-        <div class="trst_com_pny wow animate__slideInUp">
-            <div class="com_pany_fl">
-                <figure>
-                    <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Bright-v5-1.png"
-                        alt="">
-                </figure>
-            </div>
-            <div class="com_pany_fl">
-                <figure>
-                    <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Health-v3.png"
-                        alt="">
-                </figure>
-            </div>
-            <div class="com_pany_fl">
-                <figure>
-                    <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Logistic-v1.png"
-                        alt="">
-                </figure>
-            </div>
-            <div class="com_pany_fl">
-                <figure>
-                    <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Pharma-v4.png"
-                        alt="">
-                </figure>
-            </div>
-            <div class="com_pany_fl">
-                <figure>
-                    <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Finance-v2.png"
-                        alt="">
-                </figure>
-            </div>
+        <div class="res_pon_icon">
+          <button class="btn_stl_nav">
+            <i class="fa-solid fa-bars"></i>
+          </button>
         </div>
+      </nav>
 
-        <div class="stry_tym wow animate__slideInUp">
-            <div class="txt_fl_sec">
-                <h1 class="h1_styl">Our story in innovation and excellence</h1>
-                <p>We are at the forefront of AI & Robotics innovation. Our extensive experience enables us to pioneer
-                    cutting-edge solutions, shaping the future of technology with creativity and expertise.</p>
-                <div class="btn_fl">
-                    <button class="btn_styl_1">
-                        Read More
-                    </button>
-                </div>
-            </div>
-            <div class="txt_fl_sec">
-                <ul class="fl_boxes">
-                    <li class="boxes_fl">
-                        <h1>17+
-                            <span class="block_sec">
-                                <p>Years Experience</p>
-                            </span>
-                        </h1>
-                    </li>
-                    <li class="boxes_fl">
-                        <h1>2,000
-                            <span class="block_sec">
-                                <p>Global Impact</p>
-                            </span>
-                        </h1>
-                    </li>
-                    <li class="boxes_fl">
-                        <h1>3,200
-                            <span class="block_sec">
-                                <p>Successful Deployments</p>
-                            </span>
-                        </h1>
-                    </li>
-                    <li class="boxes_fl">
-                        <h1>97%
-                            <span class="block_sec">
-                                <p>Clients Satisfaction</p>
-                            </span>
-                        </h1>
-                    </li>
-                </ul>
-            </div>
+      <div class="main_headin_fl wow animate__slideInUp">
+        <div class="fl_main_sec">
+          <h1>Revolutionizing robotics with AI</h1>
+          <p>
+            At the forefront of technological innovation, we are pioneering the
+            fusion of artificial intelligence and robotics to redefine the
+            future. Our relentless commitment to advancing the field has enabled
+            us to create a powerful synergy between machines and intelligence.
+          </p>
+          <div class="btn_fl">
+            <button class="btn_styl_1">Explore</button>
+            <button class="btn_styl_2">Learn More</button>
+          </div>
         </div>
+        <div class="fl_main_sec">
+          <figure>
+            <img
+              src="https://www.robonien.com/static/img/gif/robot.gif"
+              alt=""
+            />
+          </figure>
+        </div>
+      </div>
+
+      <div class="head_ing wow animate__slideInUp">
+        <p>1250+ Trusted Big Companies</p>
+      </div>
+
+      <div class="trst_com_pny wow animate__slideInUp">
+        <div class="com_pany_fl">
+          <figure>
+            <img
+              src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Bright-v5-1.png"
+              alt=""
+            />
+          </figure>
+        </div>
+        <div class="com_pany_fl">
+          <figure>
+            <img
+              src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Health-v3.png"
+              alt=""
+            />
+          </figure>
+        </div>
+        <div class="com_pany_fl">
+          <figure>
+            <img
+              src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Logistic-v1.png"
+              alt=""
+            />
+          </figure>
+        </div>
+        <div class="com_pany_fl">
+          <figure>
+            <img
+              src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Pharma-v4.png"
+              alt=""
+            />
+          </figure>
+        </div>
+        <div class="com_pany_fl">
+          <figure>
+            <img
+              src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Finance-v2.png"
+              alt=""
+            />
+          </figure>
+        </div>
+      </div>
+
+      <div class="stry_tym wow animate__slideInUp">
+        <div class="txt_fl_sec">
+          <h1 class="h1_styl">Our story in innovation and excellence</h1>
+          <p>
+            We are at the forefront of AI & Robotics innovation. Our extensive
+            experience enables us to pioneer cutting-edge solutions, shaping the
+            future of technology with creativity and expertise.
+          </p>
+          <div class="btn_fl">
+            <button class="btn_styl_1">Read More</button>
+          </div>
+        </div>
+        <div class="txt_fl_sec">
+          <ul class="fl_boxes">
+            <li class="boxes_fl">
+              <h1>
+                17+
+                <span class="block_sec">
+                  <p>Years Experience</p>
+                </span>
+              </h1>
+            </li>
+            <li class="boxes_fl">
+              <h1>
+                2,000
+                <span class="block_sec">
+                  <p>Global Impact</p>
+                </span>
+              </h1>
+            </li>
+            <li class="boxes_fl">
+              <h1>
+                3,200
+                <span class="block_sec">
+                  <p>Successful Deployments</p>
+                </span>
+              </h1>
+            </li>
+            <li class="boxes_fl">
+              <h1>
+                97%
+                <span class="block_sec">
+                  <p>Clients Satisfaction</p>
+                </span>
+              </h1>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <div class="full_img_sec wow animate__fadeIn">
-        <figure>
-            <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/About-IMG-2EJCSULRwC8.jpg"
-                alt="">
-        </figure>
+      <figure>
+        <img
+          src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/About-IMG-2EJCSULRwC8.jpg"
+          alt=""
+        />
+      </figure>
     </div>
 
     <div class="container">
-        <div class="pos_img_txt_fl wow animate__slideInUp">
-            <div class="parent_fl_sec">
-                <div class="img_sec_fl">
-                    <figure>
-                        <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Why-IMG-K21Dn4OVxNw.jpg"
-                            alt="">
-                    </figure>
-                </div>
-                <div class="pos_img_sec_1">
-                    <figure>
-                        <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Why-IMG-ezUMp8Clwq8.jpg"
-                            alt="">
-                    </figure>
-                </div>
-            </div>
-            <div class="parent_fl_sec_1">
-                <h1 class="h1_styl">Our story in innovation and excellence</h1>
-                <p>At Robotech, we are at the forefront of the AI Robotics revolution, redefining possibilities and
-                    shaping the future of technology. Here’s why choosing us sets you on a path towards unparalleled
-                    innovation and success.</p>
-
-                <ul class="boxes_fl_1">
-                    <li class="box_1">
-                        <figure>
-                            <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Cutting-Tech-CAFUJTB.png"
-                                alt="">
-                        </figure>
-                        <h2>Cutting-edge technology</h2>
-                        <p>We harness the power of Artificial Intelligence and robotics to craft state-of-the-art
-                            solutions.</p>
-                    </li>
-                    <li class="box_1">
-                        <figure>
-                            <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Expertise-ZVZZB59.png"
-                                alt="">
-                        </figure>
-                        <h2>Expertise and experience</h2>
-                        <p>Our team comprises skilled professionals and experts deeply entrenched in the field of AI
-                            robotics.</p>
-                    </li>
-                </ul>
-            </div>
+      <div class="pos_img_txt_fl wow animate__slideInUp">
+        <div class="parent_fl_sec">
+          <div class="img_sec_fl">
+            <figure>
+              <img
+                src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Why-IMG-K21Dn4OVxNw.jpg"
+                alt=""
+              />
+            </figure>
+          </div>
+          <div class="pos_img_sec_1">
+            <figure>
+              <img
+                src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Why-IMG-ezUMp8Clwq8.jpg"
+                alt=""
+              />
+            </figure>
+          </div>
         </div>
+        <div class="parent_fl_sec_1">
+          <h1 class="h1_styl">Our story in innovation and excellence</h1>
+          <p>
+            At Robotech, we are at the forefront of the AI Robotics revolution,
+            redefining possibilities and shaping the future of technology.
+            Here’s why choosing us sets you on a path towards unparalleled
+            innovation and success.
+          </p>
 
-        <div class="haed_ing_por wow animate__slideInUp">
-            <h1>Advanced AI Robotech solutions</h1>
-            <p>Empower your business with cutting-edge AI robotics solutions designed
-                to streamline operations, enhance
-                productivity, and revolutionize your industry. Our tailored services combine AI and robotics for
-                optimized performance and innovation.</p>
+          <ul class="boxes_fl_1">
+            <li class="box_1">
+              <figure>
+                <img
+                  src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Cutting-Tech-CAFUJTB.png"
+                  alt=""
+                />
+              </figure>
+              <h2>Cutting-edge technology</h2>
+              <p>
+                We harness the power of Artificial Intelligence and robotics to
+                craft state-of-the-art solutions.
+              </p>
+            </li>
+            <li class="box_1">
+              <figure>
+                <img
+                  src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Expertise-ZVZZB59.png"
+                  alt=""
+                />
+              </figure>
+              <h2>Expertise and experience</h2>
+              <p>
+                Our team comprises skilled professionals and experts deeply
+                entrenched in the field of AI robotics.
+              </p>
+            </li>
+          </ul>
         </div>
+      </div>
 
-        <div class="cards_fl">
-            <ul class="cards_fl_sec">
-                <li class="cards wow animate__slideInUp">
-                    <figure>
-                        <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Automation-CAFUJTB.png"
-                            alt="">
-                    </figure>
-                    <a href="#">
-                        <h3>
-                            Automation solutions
-                        </h3>
-                    </a>
-                    <p>Implement advanced automation techniques to streamline processes and enhance operational
-                        efficiency.</p>
-                </li>
-                <li class="cards wow animate__slideInUp">
-                    <figure>
-                        <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Robotic-ZVZZB59.png"
-                            alt="">
-                    </figure>
-                    <a href="#">
-                        <h3>
-                            Robotic integration
-                        </h3>
-                    </a>
-                    <p>Integrate robotics into your systems for improved productivity and task handling.</p>
-                </li>
-                <li class="cards wow animate__slideInUp">
-                    <figure>
-                        <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Machine-ZVZZB59.png"
-                            alt="">
-                    </figure>
-                    <a href="#">
-                        <h3>
-                            Machine learning
-                        </h3>
-                    </a>
-                    <p>Incorporate machine learning algorithms for enhanced robotic capabilities and adaptive
-                        performance.</p>
-                </li>
-                <li class="cards wow animate__slideInUp">
-                    <figure>
-                        <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Autonomous-ZVZZB59.png"
-                            alt="">
-                    </figure>
-                    <a href="#">
-                        <h3>
-                            Autonomous systems
-                        </h3>
-                    </a>
-                    <p>Develop and deploy robots capable of autonomous decision-making for efficient task execution.</p>
-                </li>
-                <li class="cards wow animate__slideInUp">
-                    <figure>
-                        <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Vision-CAFUJTB.png"
-                            alt="">
-                    </figure>
-                    <a href="#">
-                        <h3>
-                            Vision systems
-                        </h3>
-                    </a>
-                    <p>Utilize AI-powered vision systems to empower robots for comprehensive visual data analysis.</p>
-                </li>
-                <li class="cards wow animate__slideInUp">
-                    <figure>
-                        <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Ethical-ZVZZB59.png"
-                            alt="">
-                    </figure>
-                    <a href="#">
-                        <h3>
-                            Ethical compliance
-                        </h3>
-                    </a>
-                    <p>Ensure ethical compliance in AI robotics implementation, adhering to regulatory standards.</p>
-                </li>
-            </ul>
-        </div>
+      <div class="haed_ing_por wow animate__slideInUp">
+        <h1>Advanced AI Robotech solutions</h1>
+        <p>
+          Empower your business with cutting-edge AI robotics solutions designed
+          to streamline operations, enhance productivity, and revolutionize your
+          industry. Our tailored services combine AI and robotics for optimized
+          performance and innovation.
+        </p>
+      </div>
 
-        <div class="head_ing_fl wow animate__slideInUp">
-            <h1>AI Robotech impact</h1>
-            <p>Explore impactful case studies demonstrating the transformative power of
-                AI robotics across diverse
-                industries, revolutionizing processes and redefining the future of automation.</p>
-        </div>
+      <div class="cards_fl">
+        <ul class="cards_fl_sec">
+          <li class="cards wow animate__slideInUp">
+            <figure>
+              <img
+                src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Automation-CAFUJTB.png"
+                alt=""
+              />
+            </figure>
+            <a href="#">
+              <h3>Automation solutions</h3>
+            </a>
+            <p>
+              Implement advanced automation techniques to streamline processes
+              and enhance operational efficiency.
+            </p>
+          </li>
+          <li class="cards wow animate__slideInUp">
+            <figure>
+              <img
+                src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Robotic-ZVZZB59.png"
+                alt=""
+              />
+            </figure>
+            <a href="#">
+              <h3>Robotic integration</h3>
+            </a>
+            <p>
+              Integrate robotics into your systems for improved productivity and
+              task handling.
+            </p>
+          </li>
+          <li class="cards wow animate__slideInUp">
+            <figure>
+              <img
+                src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Machine-ZVZZB59.png"
+                alt=""
+              />
+            </figure>
+            <a href="#">
+              <h3>Machine learning</h3>
+            </a>
+            <p>
+              Incorporate machine learning algorithms for enhanced robotic
+              capabilities and adaptive performance.
+            </p>
+          </li>
+          <li class="cards wow animate__slideInUp">
+            <figure>
+              <img
+                src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Autonomous-ZVZZB59.png"
+                alt=""
+              />
+            </figure>
+            <a href="#">
+              <h3>Autonomous systems</h3>
+            </a>
+            <p>
+              Develop and deploy robots capable of autonomous decision-making
+              for efficient task execution.
+            </p>
+          </li>
+          <li class="cards wow animate__slideInUp">
+            <figure>
+              <img
+                src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Vision-CAFUJTB.png"
+                alt=""
+              />
+            </figure>
+            <a href="#">
+              <h3>Vision systems</h3>
+            </a>
+            <p>
+              Utilize AI-powered vision systems to empower robots for
+              comprehensive visual data analysis.
+            </p>
+          </li>
+          <li class="cards wow animate__slideInUp">
+            <figure>
+              <img
+                src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Ethical-ZVZZB59.png"
+                alt=""
+              />
+            </figure>
+            <a href="#">
+              <h3>Ethical compliance</h3>
+            </a>
+            <p>
+              Ensure ethical compliance in AI robotics implementation, adhering
+              to regulatory standards.
+            </p>
+          </li>
+        </ul>
+      </div>
 
-        <div class="cards_fl_prnt">
-            <div class="card_childs wow animate__slideInUp">
-                <div class="card_img_sec">
-                    <figure>
-                        <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Case-Study-IMG-clZYExxYV9k.jpg"
-                            alt="">
-                    </figure>
-                    <div class="img_txt">
-                        <p>Automation solutions</p>
-                    </div>
-                </div>
-                <h2>Efficient warehousing</h2>
-                <p>AI robotics optimize inventory, reducing errors and enhancing efficiency in modern logistics and
-                    warehousing.</p>
-                <button class="btn_styl_1">
-                    Read More
-                </button>
+      <div class="head_ing_fl wow animate__slideInUp">
+        <h1>AI Robotech impact</h1>
+        <p>
+          EPxplore impactful case studies demonstrating the transformative power
+          of AI robotics across diverse industries, revolutionizing processes
+          and redefining the future of automation.
+        </p>
+      </div>
+
+      <div class="cards_fl_prnt">
+        <div class="card_childs wow animate__slideInUp">
+          <div class="card_img_sec">
+            <figure>
+              <img
+                src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Case-Study-IMG-clZYExxYV9k.jpg"
+                alt=""
+              />
+            </figure>
+            <div class="img_txt">
+              <p>Automation solutions</p>
             </div>
-            <div class="card_childs wow animate__slideInUp">
-                <div class="card_img_sec">
-                    <figure>
-                        <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Case-Study-IMG-kE0JmtbvXxM.jpg"
-                            alt="">
-                    </figure>
-                    <div class="img_txt">
-                        <p>Robotic integration</p>
-                    </div>
-                </div>
-                <h2>Precision surgery</h2>
-                <p>AI-driven robotics improve surgical precision, transforming medical procedures and advancing patient
-                    care.</p>
-                <button class="btn_styl_1">Read More</button>
-            </div>
-
+          </div>
+          <h2>Efficient warehousing</h2>
+          <p>
+            AI robotics optimize inventory, reducing errors and enhancing
+            efficiency in modern logistics and warehousing.
+          </p>
+          <button class="btn_styl_1">Read More</button>
         </div>
-
-        <div class="mid_page_cards_fl wow animate__slideInUp">
-            <div class="txt_area_fl">
-                <h1 class="h1_styl">AI Robotech impactful testimonial insights</h1>
-                <p>Discover how AI Robotech has transformed the way professionals work. Read the testimonials below to
-                    understand the impact of AI technology in various fields.</p>
-                <button class="btn_styl_1">View All Testimonial</button>
+        <div class="card_childs wow animate__slideInUp">
+          <div class="card_img_sec">
+            <figure>
+              <img
+                src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Case-Study-IMG-kE0JmtbvXxM.jpg"
+                alt=""
+              />
+            </figure>
+            <div class="img_txt">
+              <p>Robotic integration</p>
             </div>
-            <div class="cards_area_fl">
-                <ul class="info_cards_fl">
-                    <li class="info_cards">
-                        <div class="info_img">
-                            <figure>
-                                <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Testi-4-P73959Q.png"
-                                    alt="">
-                            </figure>
-                        </div>
-                        <h3>John Smith</h3>
-                        <h4>Software Developer</h4>
-                        <ul class="icon_fl_str">
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-solid fa-star"></i>
-                                </figure>
-                            </li>
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-solid fa-star"></i>
-                                </figure>
-                            </li>
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-solid fa-star"></i>
-                                </figure>
-                            </li>
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-solid fa-star"></i>
-                                </figure>
-                            </li>
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-regular fa-star"></i>
-                                </figure>
-                            </li>
-                        </ul>
-                        <p>"AI Robotech revolutionized coding processes, expediting development and boosting our team's
-                            productivity. An incredible leap forward for software engineering."</p>
-                    </li>
-                    <li class="info_cards">
-                        <div class="info_img">
-                            <figure>
-                                <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Testi-5-4GUP9BN.png"
-                                    alt="">
-                            </figure>
-                        </div>
-                        <h3>Michael Brown</h3>
-                        <h4>Industrial Engineer</h4>
-                        <ul class="icon_fl_str">
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-solid fa-star"></i>
-                                </figure>
-                            </li>
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-solid fa-star"></i>
-                                </figure>
-                            </li>
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-solid fa-star"></i>
-                                </figure>
-                            </li>
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-solid fa-star"></i>
-                                </figure>
-                            </li>
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-regular fa-star"></i>
-                                </figure>
-                            </li>
-                        </ul>
-                        <p>"AI Robotech optimized our workflows, minimizing errors and maximizing efficiency. It's the
-                            future of industrial processes."</p>
-                    </li>
-                    <li class="info_cards">
-                        <div class="info_img">
-                            <figure>
-                                <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Testi-2-4N6J76M.png"
-                                    alt="">
-                            </figure>
-                        </div>
-                        <h3>David Miller</h3>
-                        <h4>Data Scientist</h4>
-                        <ul class="icon_fl_str">
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-solid fa-star"></i>
-                                </figure>
-                            </li>
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-solid fa-star"></i>
-                                </figure>
-                            </li>
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-solid fa-star"></i>
-                                </figure>
-                            </li>
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-solid fa-star"></i>
-                                </figure>
-                            </li>
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-regular fa-star"></i>
-                                </figure>
-                            </li>
-                        </ul>
-                        <p>"AI Robotech empowered data analysis, offering unparalleled insights and changing the
-                            landscape of decision-making in our field. A game-changer."</p>
-                    </li>
-                    <li class="info_cards">
-                        <div class="info_img">
-                            <figure>
-                                <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Testi-3-P7PQ6LV.png"
-                                    alt="">
-                            </figure>
-                        </div>
-                        <h3>Christopher Wilson</h3>
-                        <h4>Architect</h4>
-                        <ul class="icon_fl_str">
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-solid fa-star"></i>
-                                </figure>
-                            </li>
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-solid fa-star"></i>
-                                </figure>
-                            </li>
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-solid fa-star"></i>
-                                </figure>
-                            </li>
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-solid fa-star"></i>
-                                </figure>
-                            </li>
-                            <li class="str_icn">
-                                <figure>
-                                    <i class="fa-regular fa-star"></i>
-                                </figure>
-                            </li>
-                        </ul>
-                        <p>"AI Robotech transformed architectural design, enabling us to visualize and create structures
-                            with precision and innovation. A must-have tool for architects."</p>
-                    </li>
-                </ul>
-            </div>
+          </div>
+          <h2>Precision surgery</h2>
+          <p>
+            AI-driven robotics improve surgical precision, transforming medical
+            procedures and advancing patient care.
+          </p>
+          <button class="btn_styl_1">Read More</button>
         </div>
+      </div>
 
-        <div class="img_accro_dion_fl wow animate__slideInUp">
-            <div class="img_accor_fl">
+      <div class="mid_page_cards_fl wow animate__slideInUp">
+        <div class="txt_area_fl">
+          <h1 class="h1_styl">AI Robotech impactful testimonial insights</h1>
+          <p>
+            Discover how AI Robotech has transformed the way professionals work.
+            Read the testimonials below to understand the impact of AI
+            technology in various fields.
+          </p>
+          <button class="btn_styl_1">View All Testimonial</button>
+        </div>
+        <div class="cards_area_fl">
+          <ul class="info_cards_fl">
+            <li class="info_cards">
+              <div class="info_img">
                 <figure>
-                    <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Testi-IMG-HuE1cJo-x34.jpg"
-                        alt="">
+                  <img
+                    src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Testi-4-P73959Q.png"
+                    alt=""
+                  />
                 </figure>
-            </div>
-            <div class="img_accor_fl">
-                <h1 class="h1_styl">AI Robotech FAQ</h1>
-                <ul class="acor_fl_sec">
-                    <li class="acor_child">
-                        <button class="accordion">Robotech's AI robotics payment options?</button>
-                        <div class="panel">
-                            <p>Robotech accepts major cards, online transfers, and secure gateways for AI robotics
-                                payments. Find instructions on our site or contact support</p>
-                        </div>
-                    </li>
-                    <li class="acor_child">
-                        <button class="accordion">Ordering AI robotics at Robotech?</button>
-                        <div class="panel">
-                            <p>Visit the product page, select, and securely complete the order process. Contact sales
-                                for customized solutions.</p>
-                        </div>
-                    </li>
-                    <li class="acor_child">
-                        <button class="accordion">Special offers for AI robotics at Robotech?</button>
-                        <div class="panel">
-                            <p>Explore subscription plans and installment options for AI robotics. Contact sales or
-                                check our website for details.</p>
-                        </div>
-                    </li>
-                    <li class="acor_child">
-                        <button class="accordion">Custom quotes for Robotech's AI robotics?</button>
-                        <div class="panel">
-                            <p>Robotech’s dedicated team offers comprehensive assistance for AI robotics, guiding you
-                                through payment methods, order processes, and any queries related to our cutting-edge
-                                AI-driven solutions.</p>
-                        </div>
-
-                    </li>
-                    <li class="acor_child">
-                        <button class="accordion">AI robotics support at Robotech?</button>
-                        <div class="panel">
-                            <p>Robotech offers subscription plans and installment options for AI Robotics. Contact sales
-                                for tailored business offers. Explore our site for details.</p>
-                        </div>
-                    </li>
-                    <li class="acor_child">
-                        <button class="accordion">Why choose Robotech for AI robotics?</button>
-                        <div class="panel">
-                            <p>Robotech delivers cutting-edge technology and personalized solutions with robust support.
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+              </div>
+              <h3>John Smith</h3>
+              <h4>Software Developer</h4>
+              <ul class="icon_fl_str">
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-solid fa-star"></i>
+                  </figure>
+                </li>
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-solid fa-star"></i>
+                  </figure>
+                </li>
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-solid fa-star"></i>
+                  </figure>
+                </li>
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-solid fa-star"></i>
+                  </figure>
+                </li>
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-regular fa-star"></i>
+                  </figure>
+                </li>
+              </ul>
+              <p>
+                "AI Robotech revolutionized coding processes, expediting
+                development and boosting our team's productivity. An incredible
+                leap forward for software engineering."
+              </p>
+            </li>
+            <li class="info_cards">
+              <div class="info_img">
+                <figure>
+                  <img
+                    src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Testi-5-4GUP9BN.png"
+                    alt=""
+                  />
+                </figure>
+              </div>
+              <h3>Michael Brown</h3>
+              <h4>Industrial Engineer</h4>
+              <ul class="icon_fl_str">
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-solid fa-star"></i>
+                  </figure>
+                </li>
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-solid fa-star"></i>
+                  </figure>
+                </li>
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-solid fa-star"></i>
+                  </figure>
+                </li>
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-solid fa-star"></i>
+                  </figure>
+                </li>
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-regular fa-star"></i>
+                  </figure>
+                </li>
+              </ul>
+              <p>
+                "AI Robotech optimized our workflows, minimizing errors and
+                maximizing efficiency. It's the future of industrial processes."
+              </p>
+            </li>
+            <li class="info_cards">
+              <div class="info_img">
+                <figure>
+                  <img
+                    src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Testi-2-4N6J76M.png"
+                    alt=""
+                  />
+                </figure>
+              </div>
+              <h3>David Miller</h3>
+              <h4>Data Scientist</h4>
+              <ul class="icon_fl_str">
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-solid fa-star"></i>
+                  </figure>
+                </li>
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-solid fa-star"></i>
+                  </figure>
+                </li>
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-solid fa-star"></i>
+                  </figure>
+                </li>
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-solid fa-star"></i>
+                  </figure>
+                </li>
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-regular fa-star"></i>
+                  </figure>
+                </li>
+              </ul>
+              <p>
+                "AI Robotech empowered data analysis, offering unparalleled
+                insights and changing the landscape of decision-making in our
+                field. A game-changer."
+              </p>
+            </li>
+            <li class="info_cards">
+              <div class="info_img">
+                <figure>
+                  <img
+                    src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Testi-3-P7PQ6LV.png"
+                    alt=""
+                  />
+                </figure>
+              </div>
+              <h3>Christopher Wilson</h3>
+              <h4>Architect</h4>
+              <ul class="icon_fl_str">
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-solid fa-star"></i>
+                  </figure>
+                </li>
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-solid fa-star"></i>
+                  </figure>
+                </li>
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-solid fa-star"></i>
+                  </figure>
+                </li>
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-solid fa-star"></i>
+                  </figure>
+                </li>
+                <li class="str_icn">
+                  <figure>
+                    <i class="fa-regular fa-star"></i>
+                  </figure>
+                </li>
+              </ul>
+              <p>
+                "AI Robotech transformed architectural design, enabling us to
+                visualize and create structures with precision and innovation. A
+                must-have tool for architects."
+              </p>
+            </li>
+          </ul>
         </div>
+      </div>
 
-        <div class="foot_heading wow animate__slideInUp">
-            <h1 class="h1_styl">Latest blog & articles</h1>
-            <p>Explore our latest blog & articles section for cutting-edge insights.
-                Stay updated with our comprehensive
-                and diverse range of topics, covering the latest trends, innovations, and industry news. Dive into
-                thought-provoking content designed to keep you informed and inspired.</p>
+      <div class="img_accro_dion_fl wow animate__slideInUp">
+        <div class="img_accor_fl">
+          <figure>
+            <img
+              src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/10/Testi-IMG-HuE1cJo-x34.jpg"
+              alt=""
+            />
+          </figure>
         </div>
-
-        <div class="3_cards_fl wow animate__slideInUp">
-            <div class="cards_child">
-                <a href="#">
-                    <figure>
-                        <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2022/01/Blog-IMG-ZkRVjJivs9Q.jpg"
-                            alt="">
-                    </figure>
-                </a>
-                <p> October 31, 2023</p>
-                <a href="#">
-                    <h4>AI algorithms the brains behind robotic intelligence</h4>
-                </a>
-            </div>
-            <div class="cards_child">
-                <a href="#">
-                    <figure>
-                        <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2022/01/Blog-IMG-6UDansS-rPI.jpg"
-                            alt="">
-                    </figure>
-                </a>
-                <p> October 31, 2023</p>
-                <a href="#">
-                    <h4>Ethical considerations in AI robotics development</h4>
-                </a>
-            </div>
-            <div class="cards_child">
-                <a href="#">
-                    <figure>
-                        <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2022/01/Blog-IMG-IayKLkmz6g0.jpg"
-                            alt="">
-                    </figure>
-                </a>
-                <p> October 31, 2023</p>
-                <a href="#">
-                    <h4>The evolving landscape of AI-driven robotics technology</h4>
-                </a>
-            </div>
+        <div class="img_accor_fl">
+          <h1 class="h1_styl">AI Robotech FAQ</h1>
+          <ul class="acor_fl_sec">
+            <li class="acor_child">
+              <button class="accordion">
+                Robotech's AI robotics payment options?
+              </button>
+              <div class="panel">
+                <p>
+                  Robotech accepts major cards, online transfers, and secure
+                  gateways for AI robotics payments. Find instructions on our
+                  site or contact support
+                </p>
+              </div>
+            </li>
+            <li class="acor_child">
+              <button class="accordion">
+                Ordering AI robotics at Robotech?
+              </button>
+              <div class="panel">
+                <p>
+                  Visit the product page, select, and securely complete the
+                  order process. Contact sales for customized solutions.
+                </p>
+              </div>
+            </li>
+            <li class="acor_child">
+              <button class="accordion">
+                Special offers for AI robotics at Robotech?
+              </button>
+              <div class="panel">
+                <p>
+                  Explore subscription plans and installment options for AI
+                  robotics. Contact sales or check our website for details.
+                </p>
+              </div>
+            </li>
+            <li class="acor_child">
+              <button class="accordion">
+                Custom quotes for Robotech's AI robotics?
+              </button>
+              <div class="panel">
+                <p>
+                  Robotech’s dedicated team offers comprehensive assistance for
+                  AI robotics, guiding you through payment methods, order
+                  processes, and any queries related to our cutting-edge
+                  AI-driven solutions.
+                </p>
+              </div>
+            </li>
+            <li class="acor_child">
+              <button class="accordion">
+                AI robotics support at Robotech?
+              </button>
+              <div class="panel">
+                <p>
+                  Robotech offers subscription plans and installment options for
+                  AI Robotics. Contact sales for tailored business offers.
+                  Explore our site for details.
+                </p>
+              </div>
+            </li>
+            <li class="acor_child">
+              <button class="accordion">
+                Why choose Robotech for AI robotics?
+              </button>
+              <div class="panel">
+                <p>
+                  Robotech delivers cutting-edge technology and personalized
+                  solutions with robust support.
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
+      </div>
 
-        <div class="join_our_newsellter wow animate__slideInUp">
-            <div class="newsellter">
-                <h1>Join Our Newsletter</h1>
-                <p>Get exclusive updates and special offers by subscribing to our newsletter. Stay informed
-                    effortlessly!</p>
-            </div>
-            <div class="newsellter">
-                <input type="email" placeholder="Enter Your Email" required>
-                <button class="btn_styl_1">
-                    Subscribe
-                </button>
-            </div>
+      <div class="foot_heading wow animate__slideInUp">
+        <h1 class="h1_styl">Latest blog & articles</h1>
+        <p>
+          Explore our latest blog & articles section for cutting-edge insights.
+          Stay updated with our comprehensive and diverse range of topics,
+          covering the latest trends, innovations, and industry news. Dive into
+          thought-provoking content designed to keep you informed and inspired.
+        </p>
+      </div>
+
+      <div class="3_cards_fl wow animate__slideInUp">
+        <div class="cards_child">
+          <a href="#">
+            <figure>
+              <img
+                src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2022/01/Blog-IMG-ZkRVjJivs9Q.jpg"
+                alt=""
+              />
+            </figure>
+          </a>
+          <p>October 31, 2023</p>
+          <a href="#">
+            <h4>AI algorithms the brains behind robotic intelligence</h4>
+          </a>
         </div>
-
-        <footer>
-            <div class="foot_fl wow animate__slideInUp">
-                <div class="foot_fl_items">
-                    <figure>
-                        <img src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/11/Robotech-New.png"
-                            alt="">
-                    </figure>
-                    <p>Don’t miss out on the latest advancements in AI & Robotics. Subscribe to our newsletter and stay
-                        informed.</p>
-                    <ul class="foot_icn_fl">
-                        <li class="foot_icn">
-                            <a href="#">
-                                <figure>
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </figure>
-                            </a>
-                        </li>
-                        <li class="foot_icn">
-                            <a href="#">
-                                <figure>
-                                    <i class="fa-brands fa-x-twitter"></i>
-                                </figure>
-                            </a>
-                        </li>
-                        <li class="foot_icn">
-                            <a href="#">
-                                <figure>
-                                    <i class="fa-brands fa-youtube"></i>
-                                </figure>
-                            </a>
-                        </li>
-                        <li class="foot_icn">
-                            <a href="#">
-                                <figure>
-                                    <i class="fa-brands fa-instagram"></i>
-                                </figure>
-                            </a>
-                        </li>
-
-                    </ul>
-                </div>
-                <div class="foot_fl_items">
-                    <h3>Other Pages</h3>
-                    <ul class="foot_lnk_fl">
-                        <li class="foot_lnk">
-                            <a href="#">ABOUT US</a>
-                        </li>
-                        <li class="foot_lnk">
-                            <a href="#">CAREER</a>
-                        </li>
-                        <li class="foot_lnk">
-                            <a href="#">RESOURCES</a>
-                        </li>
-                        <li class="foot_lnk">
-                            <a href="#">OUR SOLUTIONS</a>
-                        </li>
-                        <li class="foot_lnk">
-                            <a href="#">TERMS & CONDITIONS</a>
-                        </li>
-
-                    </ul>
-                </div>
-                <div class="foot_fl_items">
-                    <h3>Quick Links</h3>
-                    <ul class="foot_lnk_fl">
-                        <li class="foot_lnk">
-                            <a href="#">HOME</a>
-                        </li>
-                        <li class="foot_lnk">
-                            <a href="#">SERVICES</a>
-                        </li>
-                        <li class="foot_lnk">
-                            <a href="#">BLOG</a>
-                        </li>
-                        <li class="foot_lnk">
-                            <a href="#">CONTACT US</a>
-                        </li>
-                        <li class="foot_lnk">
-                            <a href="#">TESTIMONIAL</a>
-                        </li>
-
-                    </ul>
-                </div>
-                <div class="foot_fl_items">
-                    <h3>Office Address</h3>
-                    <ul class="lst_chld_fl">
-                        <li class="lst_chld_icn">
-                            <a href="#">
-                                <figure>
-                                    <i class="fa-solid fa-location-dot"></i>
-                                </figure>
-                                123 INNOVATION AVENUE, TECHCITY, XYZ
-                            </a>
-                        </li>
-                        <li class="lst_chld_icn">
-                            <a href="#">
-                                <figure>
-                                    <i class="fa-regular fa-envelope"></i>
-                                </figure>
-                                INFO@AIROBOTECHSOLUT
-                                IONS.COM
-                            </a>
-                        </li>
-                        <li class="lst_chld_icn">
-                            <a href="#">
-                                <figure>
-                                    <i class="fa-solid fa-phone"></i>
-                                </figure>
-                                +1 (555) 123-4567
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-
-        <div class="lst_line">
-            <p>© 2023 Robotech Template Kit by Desainwebkit</p>
-            <p>Privacy Policy</p>
+        <div class="cards_child">
+          <a href="#">
+            <figure>
+              <img
+                src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2022/01/Blog-IMG-6UDansS-rPI.jpg"
+                alt=""
+              />
+            </figure>
+          </a>
+          <p>October 31, 2023</p>
+          <a href="#">
+            <h4>Ethical considerations in AI robotics development</h4>
+          </a>
         </div>
+        <div class="cards_child">
+          <a href="#">
+            <figure>
+              <img
+                src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2022/01/Blog-IMG-IayKLkmz6g0.jpg"
+                alt=""
+              />
+            </figure>
+          </a>
+          <p>October 31, 2023</p>
+          <a href="#">
+            <h4>The evolving landscape of AI-driven robotics technology</h4>
+          </a>
+        </div>
+      </div>
 
+      <div class="join_our_newsellter wow animate__slideInUp">
+        <div class="newsellter">
+          <h1>Join Our Newsletter</h1>
+          <p>
+            Get exclusive updates and special offers by subscribing to our
+            newsletter. Stay informed effortlessly!
+          </p>
+        </div>
+        <div class="newsellter">
+          <input type="email" placeholder="Enter Your Email" required />
+          <button class="btn_styl_1">Subscribe</button>
+        </div>
+      </div>
+
+      <footer>
+        <div class="foot_fl wow animate__slideInUp">
+          <div class="foot_fl_items">
+            <figure>
+              <img
+                src="https://templates.desainwebkit.com/robotech/wp-content/uploads/sites/9/2023/11/Robotech-New.png"
+                alt=""
+              />
+            </figure>
+            <p>
+              Don’t miss out on the latest advancements in AI & Robotics.
+              Subscribe to our newsletter and stay informed.
+            </p>
+            <ul class="foot_icn_fl">
+              <li class="foot_icn">
+                <a href="#">
+                  <figure>
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </figure>
+                </a>
+              </li>
+              <li class="foot_icn">
+                <a href="#">
+                  <figure>
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </figure>
+                </a>
+              </li>
+              <li class="foot_icn">
+                <a href="#">
+                  <figure>
+                    <i class="fa-brands fa-youtube"></i>
+                  </figure>
+                </a>
+              </li>
+              <li class="foot_icn">
+                <a href="#">
+                  <figure>
+                    <i class="fa-brands fa-instagram"></i>
+                  </figure>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="foot_fl_items">
+            <h3>Other Pages</h3>
+            <ul class="foot_lnk_fl">
+              <li class="foot_lnk">
+                <a href="#">ABOUT US</a>
+              </li>
+              <li class="foot_lnk">
+                <a href="#">CAREER</a>
+              </li>
+              <li class="foot_lnk">
+                <a href="#">RESOURCES</a>
+              </li>
+              <li class="foot_lnk">
+                <a href="#">OUR SOLUTIONS</a>
+              </li>
+              <li class="foot_lnk">
+                <a href="#">TERMS & CONDITIONS</a>
+              </li>
+            </ul>
+          </div>
+          <div class="foot_fl_items">
+            <h3>Quick Links</h3>
+            <ul class="foot_lnk_fl">
+              <li class="foot_lnk">
+                <a href="#">HOME</a>
+              </li>
+              <li class="foot_lnk">
+                <a href="#">SERVICES</a>
+              </li>
+              <li class="foot_lnk">
+                <a href="#">BLOG</a>
+              </li>
+              <li class="foot_lnk">
+                <a href="#">CONTACT US</a>
+              </li>
+              <li class="foot_lnk">
+                <a href="#">TESTIMONIAL</a>
+              </li>
+            </ul>
+          </div>
+          <div class="foot_fl_items">
+            <h3>Office Address</h3>
+            <ul class="lst_chld_fl">
+              <li class="lst_chld_icn">
+                <a href="#">
+                  <figure>
+                    <i class="fa-solid fa-location-dot"></i>
+                  </figure>
+                  123 INNOVATION AVENUE, TECHCITY, XYZ
+                </a>
+              </li>
+              <li class="lst_chld_icn">
+                <a href="#">
+                  <figure>
+                    <i class="fa-regular fa-envelope"></i>
+                  </figure>
+                  INFO@AIROBOTECHSOLUT IONS.COM
+                </a>
+              </li>
+              <li class="lst_chld_icn">
+                <a href="#">
+                  <figure>
+                    <i class="fa-solid fa-phone"></i>
+                  </figure>
+                  +1 (555) 123-4567
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+      <div class="lst_line">
+        <p>© 2023 Robotech Template Kit by Desainwebkit</p>
+        <p>Privacy Policy</p>
+      </div>
     </div>
 
     <script src="Ai-chatbot-Script/Ai-chatbot.js"></script>
-
-</body>
-
+  </body>
 </html>
